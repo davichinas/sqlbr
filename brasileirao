@@ -1,0 +1,27 @@
+CREATE TABLE brasileirao (
+    ID INT AUTO_INCREMENT PRIMARY KEY,
+    Time VARCHAR(100) NOT NULL,
+    Pontos INT NOT NULL
+);
+
+INSERT INTO brasileirao (Time, Pontos) VALUES
+('Flamengo', 32),
+('Palmeiras', 34),
+('Atlético Mineiro', 27),
+('São Paulo', 27),
+('Grêmio', 34),
+('Internacional', 24),
+('Fluminense', 31),
+('Vasco', 16),
+('Bahia', 18),
+('Fortaleza', 26),
+('Corinthians', 24),
+('Coritiba', 14),
+('Athletico Paranaense', 31),
+('Bragantino', 32),
+('Cruzeiro', 24),
+('Goiás', 22),
+('Botafogo', 47),
+('América Mineiro', 10),
+('Cuiabá', 28),
+('Santos', 18);
